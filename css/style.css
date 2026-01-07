@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
 }
 
-.hero-section, .pillars-section {
+.hero-section, .pillars-section, .vision-section {
     margin-bottom: 80px;
 }
 
@@ -33,6 +33,74 @@ body {
     border: none;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 16px;
+    padding: 11px 20px;
+    font-weight: 600;
+    line-height: 19px;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.text-primary {
+    color: rgba(14, 14, 14, 0.8);
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text-secondary {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.mb-4 {
+    margin-bottom: 4px;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.p-32 {
+    padding: 32px;
+}
+
+.bg-primary {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.bg-success {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.bg-warning {
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.btn-success {
+    background-color: #006A50;
+}
+
+.btn-primary {
+    background-color: rgba(84, 144, 245, 1);
+}
+
+.btn-warning {
+   background-color: rgba(255, 194, 57, 1);
 }
 
 /* navigation */
@@ -67,10 +135,6 @@ nav h1 {
     padding: 80px 60px;
 }
 
-.btn-success {
-    background-color: #006A50;
-}
-
 .hero-section .theme {
     color: #0E0E0E;
     opacity: 0.5;
@@ -100,16 +164,21 @@ nav h1 {
     border-radius: 16px;
 }
 
-.pillar-card h3 {
-    color: #0E0E0E;
-    opacity: 0.8;
-    font-size: 20px;
-    font-weight: 700;
-    margin: 24px 0 12px 0;
+/* Vision section */
+.vision-cards {
+    display: flex;
+    gap: 24px;
 }
 
-.pillar-card p {
-    font-size: 16px;
-    line-height: 24px;
-    color: rgba(14, 14, 14, 0.7);
+.vision-cards .vision-card {
+    border-radius: 16px;
+}
+
+.speech-area {
+    background-color: #FFFFFF;
+    padding: 48px 24px;
+    border-radius: 16px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 25px;
 }
