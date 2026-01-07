@@ -8,13 +8,26 @@
 body {
     background-color: #F5F5F5;
 }
+
 /* Common Styles */
 .container {
     max-width: 1280px;
     margin: 0 auto;
 }
 
-.hero-section, .pillars-section, .vision-section, .opinion-section, .news-section, .donation-section, .newsletter-section {
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hero-section,
+.pillars-section,
+.vision-section,
+.opinion-section,
+.news-section,
+.donation-section,
+.newsletter-section {
     margin-bottom: 80px;
 }
 
@@ -46,8 +59,33 @@ body {
     cursor: pointer;
 }
 
+.btn-success {
+    background-color: #006A50;
+}
+
+.btn-primary {
+    background-color: rgba(84, 144, 245, 1);
+}
+
+.btn-warning {
+    background-color: rgba(255, 194, 57, 1);
+}
+
+.bg-primary {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.bg-success {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.bg-warning {
+    background-color: rgba(247, 235, 207, 1);
+}
+
 .text-primary {
-    color: rgba(14, 14, 14, 1);;
+    color: rgba(14, 14, 14, 1);
+    ;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -57,6 +95,18 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: rgba(14, 14, 14, 0.7);
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .mb-4 {
@@ -75,44 +125,12 @@ body {
     margin-bottom: 32px;
 }
 
+.mt-32 {
+    margin-top: 32px;
+}
+
 .p-32 {
     padding: 32px;
-}
-
-.bg-primary {
-    background-color: rgba(84, 144, 245, 0.2);
-}
-
-.bg-success {
-    background-color: rgba(198, 228, 214, 1);
-}
-
-.bg-warning {
-    background-color: rgba(247, 235, 207, 1);
-}
-
-.btn-success {
-    background-color: #006A50;
-}
-
-.btn-primary {
-    background-color: rgba(84, 144, 245, 1);
-}
-
-.btn-warning {
-   background-color: rgba(255, 194, 57, 1);
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.text-center {
-    text-align: center;
 }
 
 /* navigation */
@@ -122,13 +140,8 @@ nav {
     padding: 24px 0;
 }
 
-nav h1 {
-    font-size: 32px;
-    font-weight: 700;
-}
-
 .btn-sign-in {
-    color:  #006A50;
+    color: #006A50;
     border: 1px solid #006A50;
     border-radius: 8px;
     padding: 15px 30px;
@@ -196,30 +209,30 @@ nav h1 {
 }
 
 /* Table */
-.opinion-box  {
-  border-radius: 16px;
-background: rgba(255, 255, 255, 1);
-  padding: 32px;
+.opinion-box {
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    padding: 32px;
 }
 
 .opinion-box table {
-  width: 100%;
-  border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
 }
 
 .opinion-box thead th {
-  background: rgba(198, 228, 214, 1);
-  padding: 24px;
-  font-weight: 600;
+    background: rgba(198, 228, 214, 1);
+    padding: 24px;
+    font-weight: 600;
 }
 
-.question{
-  padding: 36.5px 0 36.5px 24px;
-  border: 1px solid rgba(14, 14, 14, 0.15);
-  color: rgba(14, 14, 14, 1);
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 19px;
+.question {
+    padding: 36.5px 0 36.5px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    color: rgba(14, 14, 14, 1);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
 }
 
 .answer {
@@ -232,8 +245,8 @@ background: rgba(255, 255, 255, 1);
 
 .answer span {
     border: 1px solid rgba(14, 14, 14, 1);
-border-radius: 4px;
-background: rgba(198, 228, 214, 1);
+    border-radius: 4px;
+    background: rgba(198, 228, 214, 1);
     padding: 10px 14px 10px 14px;
     margin: 24px;
 }
@@ -331,5 +344,25 @@ form input[type="submit"] {
     border-radius: 0px 8px 8px 0px;
     background: rgba(0, 106, 80, 1);
     border: none;
+    cursor: pointer;
+}
+
+/* Footer section */
+footer {
+    text-align: center;
+    padding: 50px 240px;
+}
+
+footer .social {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
+
+hr {
+    opacity: 0.5;
+}
+
+.social img {
     cursor: pointer;
 }
