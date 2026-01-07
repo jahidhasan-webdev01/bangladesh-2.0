@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
 }
 
-.hero-section, .pillars-section, .vision-section {
+.hero-section, .pillars-section, .vision-section, .opinion-section {
     margin-bottom: 80px;
 }
 
@@ -47,10 +47,10 @@ body {
 }
 
 .text-primary {
-    color: rgba(14, 14, 14, 0.8);
-    opacity: 0.8;
+    color: rgba(14, 14, 14, 1);;
     font-size: 20px;
     font-weight: 700;
+    line-height: 24px;
 }
 
 .text-secondary {
@@ -101,6 +101,14 @@ body {
 
 .btn-warning {
    background-color: rgba(255, 194, 57, 1);
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
 }
 
 /* navigation */
@@ -181,4 +189,41 @@ nav h1 {
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: 24px 25px;
+}
+
+/* Table */
+.opinion-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.opinion-box thead th {
+  background: rgba(198, 228, 214, 1);
+  padding: 24px;
+  font-weight: 600;
+}
+
+.question{
+  padding: 36.5px 0 36.5px 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  color: rgba(14, 14, 14, 1);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+}
+
+.answer {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 4px;
+    padding: 10px 14px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.answer span {
+    border: 1px solid rgba(14, 14, 14, 1);
+border-radius: 4px;
+background: rgba(198, 228, 214, 1);
+    padding: 10px 14px 10px 14px;
+    margin: 24px;
 }
