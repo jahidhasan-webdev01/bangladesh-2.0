@@ -192,6 +192,12 @@ nav h1 {
 }
 
 /* Table */
+.opinion-box  {
+  border-radius: 16px;
+background: rgba(255, 255, 255, 1);
+  padding: 32px;
+}
+
 .opinion-box table {
   width: 100%;
   border-collapse: collapse;
