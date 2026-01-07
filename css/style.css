@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
 }
 
-.hero-section, .pillars-section, .vision-section, .opinion-section {
+.hero-section, .pillars-section, .vision-section, .opinion-section, .news-section, .donation-section, .newsletter-section {
     margin-bottom: 80px;
 }
 
@@ -109,6 +109,10 @@ body {
 
 .text-right {
     text-align: right;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* navigation */
@@ -232,4 +236,100 @@ border-radius: 4px;
 background: rgba(198, 228, 214, 1);
     padding: 10px 14px 10px 14px;
     margin: 24px;
+}
+
+/* News section */
+.news-area {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.news-card {
+    display: flex;
+    gap: 32px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 1);
+    padding: 48px;
+}
+
+.news-card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.schedule {
+    display: flex;
+    gap: 12px;
+}
+
+.news-card:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.news-image {
+    border-radius: 24px;
+}
+
+/* Donation section */
+.donation-cards {
+    display: flex;
+    gap: 24px;
+    padding: 0 88px;
+    justify-content: center;
+}
+
+.donation-card {
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.donation-card:hover {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.donation-section input {
+    width: 70%;
+    padding: 20px 0;
+    text-align: center;
+    border: none;
+}
+
+/* Newsletter section */
+.newsletter-section {
+    border-radius: 24px;
+    background: rgba(198, 228, 214, 1);
+    padding: 80px 100px 80px 100px;
+}
+
+form {
+    display: flex;
+    gap: 0;
+    justify-content: center;
+}
+
+form input[type="email"] {
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+}
+
+form input[type="submit"] {
+    padding: 17px 34px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border-radius: 0px 8px 8px 0px;
+    background: rgba(0, 106, 80, 1);
+    border: none;
+    cursor: pointer;
 }
